@@ -72,11 +72,11 @@ a:focus, a:hover {
 	min-height: 750px;
 }
 .col-md-6.w3-banner-grid-left {
-    width: 50%;
+    width: 100%;
     float: left;
 }
 .col-md-6.w3-banner-grid-right{
-    width: 50%;
+    width: 100%;
     float: left;
 }
 .w3-banner-img {
