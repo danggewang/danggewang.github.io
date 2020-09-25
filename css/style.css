@@ -38,10 +38,12 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0;
 	font-family: 'Amita', cursive;
 }
+
 p {
 	margin: 0;
 	font-size:1em;
-	font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgba(0, 0, 0, 0.856);
 }
 ul {
 	margin: 0;
@@ -59,7 +61,7 @@ a:focus, a:hover {
 .w3-banner-top{
     background: url(../images/ban6666.jpg) no-repeat 0px 0px;
     background-size: cover;
-	min-height:750px;
+	min-height:650px;
 	    position: relative;
 }
 .agileinfo-dot{
@@ -72,11 +74,11 @@ a:focus, a:hover {
 	min-height: 750px;
 }
 .col-md-6.w3-banner-grid-left {
-    width: 100%;
+    width: 50%;
     float: left;
 }
 .col-md-6.w3-banner-grid-right{
-    width: 100%;
+    width: 50%;
     float: left;
 }
 .w3-banner-img {
@@ -99,11 +101,11 @@ ul.address li ul.agileits-address-text li:nth-child(1) {
     width: 20%;
 }
 .w3-banner-grids {
-    padding: 9em 0 0 0;
+    padding: 7em 0 0 0;
 }
 .w3-banner-img img {
-    width: 133px;
-    height: 133px;
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
 }
 .w3-right-addres-1 li {
@@ -148,9 +150,9 @@ ul.agileits-address-text li span {
 }
 .w3-banner-img {
   border: 5px solid rgba(238, 238, 238, 0.53);
-    width: 400px;
+    width: 500px;
     height: 400px;
-    padding: 63px;
+    padding: 20px;
     margin: 0 auto;
 }
 li.agile-it-adress-left b {
@@ -1291,14 +1293,14 @@ h4.modal-title {
 }
 @media(max-width:1080px){
 	.w3-banner-text p {
-    width: 67%;
+    width: 100%;
 	}
 	.w3-about-grid-right1 {
     margin: 0em 0;
 	}
 	.w3-about-grid-left2 h4 {
     background: #f9a300;
-    width: 21%;
+    width: 100%;
 	}
 	.w3-edu-info-right2 h3 {
     font-size: 1.8em;
@@ -1309,7 +1311,7 @@ h4.modal-title {
     font-size: 1em;
     line-height: 1.8em;
     letter-spacing: 1px;
-    width: 68%;
+    width: 100%;
 	}
 	.jm-item-image {
     width: 250px;
@@ -1338,7 +1340,7 @@ h4.modal-title {
 }
 @media(max-width:991px){
 	.w3-about-grid-left1 {
-    width: 40%;
+    width: 100%;
     float: left;
 	}
 	.col-md-6.w3-about-grid-right1 {
@@ -1381,21 +1383,21 @@ h4.modal-title {
     float: left;
 	}
 	.w3-edu-info-right2 {
-    width: 66%;
+    width: 100%;
     float: left;
 	}
 	.w3-edu-info-right1 {
-    width: 33.33%;
+    width: 100%;
     float: left;
 	}
 	.w3-edu-grid-left {
     margin-left: 11em;
 	}
 	.w3-edu-grid-right {
-    margin-left: 11em;
+    margin-left: 2em;
 	}
 	.w3-agile-skills-grid {
-    width: 50%;
+    width: 100%;
     float: left;
 	}
 	.jm-item-image {
@@ -1425,7 +1427,7 @@ h4.modal-title {
 }
 @media(max-width:768px){
 	.w3-banner-text p {
-    width: 100%;
+    width: 50%;
 	}
 }
 @media(max-width:736px){
@@ -1540,7 +1542,7 @@ h4.modal-title {
     font-size: 1.6em;
 	}
 	.w3-edu-info-right2 p {
-    width: 91%;
+    width: 100%;
 	}
 	.w3-edu-info2 h3 {
     font-size: 1.7em;
@@ -1577,7 +1579,7 @@ h4.modal-title {
     margin: 2em 0 0 0;
 	}
 	.w3-about-grid-left2 h4 {
-    width: 19%;
+    width: 100%;
 	}
 	.w3-edu-grid-left {
     margin-left: 5em;
@@ -1596,7 +1598,7 @@ h4.modal-title {
     float: left;
 	}
 	.col-md-6.w3-banner-grid-right {
-    width: 100%;
+    width: 50%;
     float: left;
 	}
 	.w3-banner-img {
@@ -1704,7 +1706,7 @@ h4.modal-title {
     padding: 4em 0 0 0;
 	}
 	.w3-about-grid-left2 h4 {
-    width: 27%;
+    width: 100%;
 	}
 	.w3-edu-grid-left {
 	margin-left: 0em;
@@ -1764,7 +1766,7 @@ h4.modal-title {
     bottom: 5%;
 	}
 	.w3-about-grid-left2 h4 {
-    width: 29%;
+    width: 100%;
 	}
 	.w3-about-grid-right1 h5 {
     font-size: 1.2em;
@@ -1810,7 +1812,7 @@ h4.modal-title {
     line-height: 1.5em;
 	}
 	.w3-about-grid-left2 h4 {
-    width: 31%;
+    width: 100%;
 	}
 	.simplefilter li, .multifilter li, .sortandshuffle li {
    
@@ -1862,7 +1864,7 @@ h4.modal-title {
     margin-top: 1em;
 	}
 	.w3-about-grid-left2 h4 {
-    width: 38%;
+    width: 100%;
 	}
 	.title-w3ls h4, .w3ls-heading h3, .w3-gallery-head h3, .w3-about-head h3 {
     font-size: 2em;

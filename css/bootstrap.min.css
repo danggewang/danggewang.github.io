@@ -1581,10 +1581,11 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  width: 1000px;
 }
-@media (min-width: 768px) {
+@media (min-width: 850px) {
   .container {
-    width: 750px;
+    width: 850px;
   }
 }
 @media (min-width: 992px) {
